@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# Net_Tie
+#
+DEF Net_Tie NT 0 40 Y Y 1 F N
+F0 "NT" 0 -100 40 H V C CNN
+F1 "Net_Tie" 0 100 40 H V C CNN
+F2 "" 0 0 40 H V C CNN
+F3 "" 0 0 40 H V C CNN
+$FPLIST
+ NET_TIE_.25mm
+ NET_TIE_1mm
+ NET_TIE_1.5mm
+$ENDFPLIST
+DRAW
+S -75 50 75 -50 0 1 0 N
+P 2 0 1 5  -50 0  50 0 N
+X ~ 1 -150 0 100 R 40 40 1 1 B
+X ~ 2 150 0 100 L 40 40 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library

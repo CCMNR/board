@@ -1,0 +1,8 @@
+# Caches and backups
+**/*-cache*
+**/*bak*
+
+# Intermediaries
+**/*.net
+**/*.dsn
+**/*.ses
