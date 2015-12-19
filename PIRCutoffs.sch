@@ -1,0 +1,338 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:w_microcontrollers
+LIBS:custom
+LIBS:net_tie
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MLX90615 U_CT0_3
+U 1 1 561CFD1E
+P 3750 1550
+F 0 "U_CT0_3" H 3750 1850 60  0000 C CNN
+F 1 "MLX90615" H 3750 1250 60  0000 C CNN
+F 2 "Custom:TO-46_4Pin" H 3750 1550 60  0001 C CNN
+F 3 "" H 3750 1550 60  0000 C CNN
+	1    3750 1550
+	1    0    0    -1  
+$EndComp
+Connection ~ 1850 1800
+Connection ~ 2050 1800
+$Comp
+L C_Small C_CT0_1
+U 1 1 561CFF02
+P 1950 1800
+F 0 "C_CT0_1" H 1960 1870 50  0000 L CNN
+F 1 "0.1uF" H 1960 1720 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 1950 1800 60  0001 C CNN
+F 3 "" H 1950 1800 60  0000 C CNN
+	1    1950 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1300 2100 1300 2200
+Wire Wire Line
+	950  2100 1300 2100
+Wire Wire Line
+	950  1450 950  2100
+Wire Wire Line
+	1050 1450 950  1450
+Wire Wire Line
+	1400 2000 1400 2200
+Wire Wire Line
+	1050 2000 1400 2000
+Wire Wire Line
+	1050 1650 1050 2000
+Wire Wire Line
+	1500 2100 1500 2200
+Wire Wire Line
+	2050 2100 1500 2100
+Wire Wire Line
+	2050 1450 2050 2100
+Wire Wire Line
+	1850 1450 2050 1450
+Wire Wire Line
+	1600 2000 1600 2200
+Wire Wire Line
+	1850 2000 1600 2000
+Wire Wire Line
+	1850 1650 1850 2000
+$Comp
+L CONN_01X04 P16
+U 1 1 561CFE22
+P 1450 2400
+F 0 "P16" H 1450 2650 50  0000 C CNN
+F 1 "CONN_01X04" V 1550 2400 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 1450 2400 60  0001 C CNN
+F 3 "" H 1450 2400 60  0000 C CNN
+	1    1450 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L MLX90614 U_CT0_1
+U 1 1 561CF8CA
+P 1450 1550
+F 0 "U_CT0_1" H 1450 1850 60  0000 C CNN
+F 1 "MLX90614" H 1450 1250 60  0000 C CNN
+F 2 "Custom:TO-39" H 1450 1550 60  0001 C CNN
+F 3 "" H 1450 1550 60  0000 C CNN
+	1    1450 1550
+	1    0    0    -1  
+$EndComp
+Connection ~ 1850 3550
+Connection ~ 2050 3550
+$Comp
+L C_Small C_CT0_2
+U 1 1 561D02B2
+P 1950 3550
+F 0 "C_CT0_2" H 1960 3620 50  0000 L CNN
+F 1 "0.1uF" H 1960 3470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 1950 3550 60  0001 C CNN
+F 3 "" H 1950 3550 60  0000 C CNN
+	1    1950 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1300 3850 1300 3950
+Wire Wire Line
+	950  3850 1300 3850
+Wire Wire Line
+	950  3200 950  3850
+Wire Wire Line
+	1050 3200 950  3200
+Wire Wire Line
+	1400 3750 1400 3950
+Wire Wire Line
+	1050 3750 1400 3750
+Wire Wire Line
+	1050 3400 1050 3750
+Wire Wire Line
+	1500 3850 1500 3950
+Wire Wire Line
+	2050 3850 1500 3850
+Wire Wire Line
+	2050 3200 2050 3850
+Wire Wire Line
+	1850 3200 2050 3200
+Wire Wire Line
+	1600 3750 1600 3950
+Wire Wire Line
+	1850 3750 1600 3750
+Wire Wire Line
+	1850 3400 1850 3750
+$Comp
+L CONN_01X04 P17
+U 1 1 561D02C8
+P 1450 4150
+F 0 "P17" H 1450 4400 50  0000 C CNN
+F 1 "CONN_01X04" V 1550 4150 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 1450 4150 60  0001 C CNN
+F 3 "" H 1450 4150 60  0000 C CNN
+	1    1450 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L MLX90614 U_CT0_2
+U 1 1 561D02CE
+P 1450 3300
+F 0 "U_CT0_2" H 1450 3600 60  0000 C CNN
+F 1 "MLX90614" H 1450 3000 60  0000 C CNN
+F 2 "Custom:TO-39" H 1450 3300 60  0001 C CNN
+F 3 "" H 1450 3300 60  0000 C CNN
+	1    1450 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 4150 1800
+Connection ~ 4350 1800
+$Comp
+L C_Small C_CT0_3
+U 1 1 561D071A
+P 4250 1800
+F 0 "C_CT0_3" H 4260 1870 50  0000 L CNN
+F 1 "0.1uF" H 4260 1720 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4250 1800 60  0001 C CNN
+F 3 "" H 4250 1800 60  0000 C CNN
+	1    4250 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 2100 3600 2200
+Wire Wire Line
+	3250 2100 3600 2100
+Wire Wire Line
+	3250 1450 3250 2100
+Wire Wire Line
+	3350 1450 3250 1450
+Wire Wire Line
+	3700 2000 3700 2200
+Wire Wire Line
+	3350 2000 3700 2000
+Wire Wire Line
+	3350 1650 3350 2000
+Wire Wire Line
+	3800 2100 3800 2200
+Wire Wire Line
+	4350 2100 3800 2100
+Wire Wire Line
+	4350 1450 4350 2100
+Wire Wire Line
+	4150 1450 4350 1450
+Wire Wire Line
+	3900 2000 3900 2200
+Wire Wire Line
+	4150 2000 3900 2000
+Wire Wire Line
+	4150 1650 4150 2000
+$Comp
+L CONN_01X04 P18
+U 1 1 561D0730
+P 3750 2400
+F 0 "P18" H 3750 2650 50  0000 C CNN
+F 1 "CONN_01X04" V 3850 2400 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 3750 2400 60  0001 C CNN
+F 3 "" H 3750 2400 60  0000 C CNN
+	1    3750 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L MLX90615 U_CT0_4
+U 1 1 561D08F3
+P 3750 3300
+F 0 "U_CT0_4" H 3750 3600 60  0000 C CNN
+F 1 "MLX90615" H 3750 3000 60  0000 C CNN
+F 2 "Custom:TO-46_4Pin" H 3750 3300 60  0001 C CNN
+F 3 "" H 3750 3300 60  0000 C CNN
+	1    3750 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 4150 3550
+Connection ~ 4350 3550
+$Comp
+L C_Small C_CT0_4
+U 1 1 561D08FB
+P 4250 3550
+F 0 "C_CT0_4" H 4260 3620 50  0000 L CNN
+F 1 "0.1uF" H 4260 3470 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4250 3550 60  0001 C CNN
+F 3 "" H 4250 3550 60  0000 C CNN
+	1    4250 3550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 3850 3600 3950
+Wire Wire Line
+	3250 3850 3600 3850
+Wire Wire Line
+	3250 3200 3250 3850
+Wire Wire Line
+	3350 3200 3250 3200
+Wire Wire Line
+	3700 3750 3700 3950
+Wire Wire Line
+	3350 3750 3700 3750
+Wire Wire Line
+	3350 3400 3350 3750
+Wire Wire Line
+	3800 3850 3800 3950
+Wire Wire Line
+	4350 3850 3800 3850
+Wire Wire Line
+	4350 3200 4350 3850
+Wire Wire Line
+	4150 3200 4350 3200
+Wire Wire Line
+	3900 3750 3900 3950
+Wire Wire Line
+	4150 3750 3900 3750
+Wire Wire Line
+	4150 3400 4150 3750
+$Comp
+L CONN_01X04 P19
+U 1 1 561D0911
+P 3750 4150
+F 0 "P19" H 3750 4400 50  0000 C CNN
+F 1 "CONN_01X04" V 3850 4150 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 3750 4150 60  0001 C CNN
+F 3 "" H 3750 4150 60  0000 C CNN
+	1    3750 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L R_Small R_CT0_2
+U 1 1 561DB2F5
+P 1450 2900
+F 0 "R_CT0_2" H 1480 2920 50  0000 L CNN
+F 1 "10k" H 1480 2860 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 1450 2900 60  0001 C CNN
+F 3 "" H 1450 2900 60  0000 C CNN
+	1    1450 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1350 2900 1050 2900
+Wire Wire Line
+	1050 2900 1050 3200
+Wire Wire Line
+	1550 2900 1850 2900
+Wire Wire Line
+	1850 2900 1850 3200
+$Comp
+L R_Small R_CT0_1
+U 1 1 561DE5FE
+P 1450 1150
+F 0 "R_CT0_1" H 1480 1170 50  0000 L CNN
+F 1 "10k" H 1480 1110 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" H 1450 1150 60  0001 C CNN
+F 3 "" H 1450 1150 60  0000 C CNN
+	1    1450 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1350 1150 1050 1150
+Wire Wire Line
+	1050 1150 1050 1450
+Wire Wire Line
+	1550 1150 1850 1150
+Wire Wire Line
+	1850 1150 1850 1450
+$EndSCHEMATC
