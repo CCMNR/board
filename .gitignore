@@ -1,6 +1,7 @@
 # Caches and backups
 **/*-cache*
 **/*bak*
+**/_autosave*
 
 # Intermediaries
 **/*.net
