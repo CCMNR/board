@@ -1,4 +1,4 @@
-update=Sat 03 Oct 2015 05:18:48 PM EDT
+update=Sun 27 Dec 2015 01:07:37 PM EST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,18 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -59,15 +71,3 @@ LibName29=valves
 LibName30=w_microcontrollers
 LibName31=custom
 LibName32=net_tie
-[general]
-version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
