@@ -31,6 +31,7 @@ LIBS:valves
 LIBS:w_microcontrollers
 LIBS:custom
 LIBS:net_tie
+LIBS:rcj_res_b_board-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
